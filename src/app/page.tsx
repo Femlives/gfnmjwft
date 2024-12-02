@@ -1,4 +1,5 @@
-import { Header } from '@/components';
+import Footer from '@/components/Footer';
+import Header from '@/components/Header';
 import {
   HeroSection,
   MenopauseStagesSection,
@@ -12,6 +13,7 @@ export default function Home() {
       <HeroSection />
       <MenopauseStagesSection />
       <StatsSection />
+      <Footer />
     </main>
   );
 }
